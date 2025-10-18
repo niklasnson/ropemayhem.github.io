@@ -1,0 +1,29 @@
+info:
+  - text: "about us"
+    link: /about_us
+  - text: "contact us"
+    link: /contact_us
+    border: true
+  - text: "about us"
+    link: /about_us
+    border: true
+  - text: "how to submit"
+    link: /how_to_submit
+    border: true
+  - text: "privacy & coockies policy"
+    link: /privacy_and_coockies_policy
+covers:
+
+scene news:
+
+gossip:
+
+events:
+
+exposé:
+
+reviews:
+
+shopping:
+
+learning:
