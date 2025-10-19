@@ -4,4 +4,4 @@
 require "rubygems"
 require_relative "../lib/netherthing"
 
-Netherthing::App.run
+Netherthing.start

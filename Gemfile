@@ -12,7 +12,6 @@ gem 'jekyll-seo-tag'
 gem 'facets'
 gem 'nokogiri'
 gem 'rspec'
-gem 'thor', '~> 1.2.1'
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"

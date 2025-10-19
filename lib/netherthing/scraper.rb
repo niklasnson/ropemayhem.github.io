@@ -9,6 +9,4 @@ class Netherthing::Scraper
   def initialize(recept)
     @recept = recept
   end
-
-  private
 end

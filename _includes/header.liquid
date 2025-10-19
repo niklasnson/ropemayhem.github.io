@@ -14,7 +14,7 @@
     </div>
     <ul class="nav">
       <li class="">
-        <a class="nav-link fs-5 link-body-emphasis" href="https://github.com/niklasnson/netherthing.rb" target="_blank">
+        <a class="nav-link fs-5 link-body-emphasis" href="https://github.com/niklasnson/ropemayhem.github.io" target="_blank">
           <i class="bi bi-github"></i>
         </a>
       </li>
@@ -63,18 +63,18 @@
     {% else %}
       <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-3">{{ category.first | capitalize }}</a></li>
     {% endif %}
-        {% for item in items %}
-          <li><a class="dropdown-item" href="{{ item.link }}">{{ item.text | capitalize}}</a></li>
-          {% if item.border == true %}
-            <li><hr class="dropdown-divider"></li>
-          {% endif %}
-        {% endfor %}
-
-      {% if items.size > 0 %}
-          </ul>
-        </li>
+    {% for item in items %}
+      <li><a class="dropdown-item" href="{{ item.link }}">{{ item.text | capitalize}}</a></li>
+      {% if item.border == true %}
+        <li><hr class="dropdown-divider"></li>
       {% endif %}
     {% endfor %}
+
+    {% if items.size > 0 %}
+        </ul>
+      </li>
+    {% endif %}
+  {% endfor %}
   </ul>
   </div>
 </nav>
