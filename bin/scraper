@@ -2,6 +2,6 @@
 # frozen_string_literal: true
 
 require "rubygems"
-require_relative "../lib/netherthing"
+require_relative "../lib/scraper"
 
-Netherthing.start
+Scraper.start

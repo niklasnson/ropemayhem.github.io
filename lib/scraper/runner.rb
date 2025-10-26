@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Netherthing::Netherthing
+class Scraper::Runner
   def initialize(options = {})
   end
 end

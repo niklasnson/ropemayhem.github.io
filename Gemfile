@@ -10,6 +10,7 @@ gem 'jekyll-seo-tag'
 # Netherthing gem's
 
 gem 'facets'
+gem 'mechanize'
 gem 'nokogiri'
 gem 'rspec'
 

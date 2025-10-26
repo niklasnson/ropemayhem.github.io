@@ -19,11 +19,16 @@ scene news:
 gossip:
 
 events:
+  - text: "reports"
+    link: ""
+  - text: "events directory"
+    link: /events_directory
 
 exposé:
 
 reviews:
 
 shopping:
-
+  - text: "shops directory"
+    link: /shops_directory
 learning:
